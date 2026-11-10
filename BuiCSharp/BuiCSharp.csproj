@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <OutputType>Library</OutputType> 
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../BuiCSharp/libs/bui_kit.dll"
+              Link="bui_kit.dll"
+              CopyToOutputDirectory="PreserveNewest" />
+        <None Include="libs\bui_kit.dll">
+          <Link>libs\bui_kit.dll</Link>
+        </None>
+    </ItemGroup> 
+
+</Project>
